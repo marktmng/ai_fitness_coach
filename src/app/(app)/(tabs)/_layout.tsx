@@ -56,6 +56,10 @@ function Layout() {
         //     className="rounded-full"
         //     style={{ width: 28, height: 28, borderRadious: 14}} />
         //   )
+
+          tabBarIcon: ({ color, size }) => (
+                <AntDesign name="user" color={color} size={size} />
+              )
          }}
         />
     </Tabs>
